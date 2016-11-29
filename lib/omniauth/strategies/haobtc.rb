@@ -26,6 +26,8 @@ module OmniAuth
           :username => user_info['username'],
           :fullname => user_info['fullname'],
           :address => user_info['address'],
+          :provider => user_info['provider'],
+          :uuid => user_info['uuid']
         }
       end
 
