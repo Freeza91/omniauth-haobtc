@@ -14,10 +14,6 @@ Gem::Specification.new do |spec|
   spec.description   = %q{OmniAuth strategies for haobtc}
   spec.homepage      = "https://github.com/Freeza91/omniauth-haobtc"
 
-  spec.files         = `git ls-files -z`.split("\x0").reject do |f|
-    f.match(%r{^(test|spec|features)/})
-  end
-
   spec.bindir        = "exe"
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
